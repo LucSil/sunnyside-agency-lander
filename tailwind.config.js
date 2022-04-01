@@ -6,6 +6,25 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        // Mobile Layouts
+        m1: "320px", // iPhone 5/SE
+        m2: "360px", // Galaxy S20
+        m3: "375px", // iPhone 12/13 mini
+        m4: "414px", // iPhone 11 Pro Max
+
+        // Tablet Layouts
+        t1: "768px",
+        t2: "800px",
+        t3: "1024px",
+        t4: "1080px",
+
+        // Desktop Layouts
+        d1: "1024px",
+        d2: "1280px",
+        d3: "1366px",
+        d4: "1440px",
+      },
       colors: {
         // Primary Colors
         "P-softRed": "hsl(7, 99%, 70%)",
