@@ -5,7 +5,12 @@ module.exports = {
     "./src/components/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        barlow: ["Barlow", "sans-serif"],
+        fraunces: ["Fraunces", "serif"],
+      },
+    },
   },
   plugins: [],
 };
