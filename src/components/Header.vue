@@ -26,11 +26,11 @@
 
     <div class="absolute z-10 place-self-center mx-6">
       <h1
-        class="font-fraunces font-black text-4xl text-N-White text-center tracking-[0.2em]"
+        class="font-fraunces font-black text-[38px] leading-tight text-N-White text-center tracking-[0.2em]"
       >
         WE ARE CREATIVES
       </h1>
-      <div class="w-full grid place-items-center mt-20">
+      <div class="w-full grid place-items-center mt-16">
         <img src="../assets/images/svg/icon-arrow-down.svg" />
       </div>
     </div>
