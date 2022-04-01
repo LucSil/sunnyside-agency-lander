@@ -1,5 +1,5 @@
 <template>
-  <header class="relative grid">
+  <header class="relative grid w-">
     <nav
       class="px-6 absolute z-20 w-full mt-8 grid place-items-center transition-all"
     >
@@ -31,22 +31,19 @@
         WE ARE CREATIVES
       </h1>
       <div class="w-full grid place-items-center mt-20">
-        <img class="" src="../assets/images/svg/icon-arrow-down.svg" />
+        <img src="../assets/images/svg/icon-arrow-down.svg" />
       </div>
     </div>
     <picture>
       <source
-        media="(min-width:350px)"
+        media="(min-width:310px)"
         srcset="../assets/images/backgrounds/header-mobile.jpg"
       />
       <source
-        media="(min-width:768px)"
+        media="(min-width:750px)"
         srcset="../assets/images/backgrounds/header-desktop.jpg"
       />
-      <img
-        src="../assets/images/backgrounds/header-desktop.jpg"
-        style="width: auto"
-      />
+      <img src="../assets/images/backgrounds/header-desktop.jpg" />
     </picture>
   </header>
 </template>
