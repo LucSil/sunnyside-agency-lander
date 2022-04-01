@@ -1,7 +1,7 @@
 <template>
-  <header class="relative">
+  <header class="relative grid">
     <nav
-      class="px-6 absolute z-10 w-full mt-8 grid place-items-center transition-all"
+      class="px-6 absolute z-20 w-full mt-8 grid place-items-center transition-all"
     >
       <div class="flex justify-between items-center w-full mb-10">
         <div>
@@ -24,6 +24,16 @@
       </ul>
     </nav>
 
+    <div class="absolute z-10 place-self-center mx-6">
+      <h1
+        class="font-fraunces font-black text-4xl text-N-White text-center tracking-[0.2em]"
+      >
+        WE ARE CREATIVES
+      </h1>
+      <div class="w-full grid place-items-center mt-20">
+        <img class="" src="../assets/images/svg/icon-arrow-down.svg" />
+      </div>
+    </div>
     <picture>
       <source
         media="(min-width:350px)"
