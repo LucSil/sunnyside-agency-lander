@@ -37,3 +37,9 @@
     </div>
   </section>
 </template>
+
+<script>
+export default {
+  name: "Egg",
+};
+</script>
