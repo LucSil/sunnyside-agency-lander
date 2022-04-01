@@ -5,14 +5,14 @@
     >
       <div class="flex justify-between items-center w-full mb-9">
         <div>
-          <img src="../assets/images/logo.svg" />
+          <img src="../assets/images/svg/logo.svg" />
         </div>
         <button v-if="!clicked" @click="toggleMenu">
-          <img src="../assets/images/icon-hamburger.svg" />
+          <img src="../assets/images/svg/icon-hamburger.svg" />
         </button>
-        <button v-if="clicked" @click="toggleMenu">
+        <!-- <button v-if="clicked" @click="toggleMenu">
           <img src="../assets/images/icon-close-menu.svg" />
-        </button>
+        </button> -->
       </div>
 
       <ul class="bg-white w-full rounded-lg transition" v-if="menu">
@@ -24,20 +24,17 @@
 
     <picture>
       <source
-        srcset="../assets/images/image-hero-mobile.jpg"
-        media="(min-width=350px)"
+        media="(min-width:350px)"
+        srcset="../assets/images/backgrounds/header-mobile.jpg"
       />
       <source
-        srcset="../assets/images/image-hero-desktop.jpg"
-        media="(min-width=768px)"
+        media="(min-width:768px)"
+        srcset="../assets/images/backgrounds/header-desktop.jpg"
       />
-      <img srcset="../assets/images/image-hero-mobile.jpg" />
+      <img
+        src="../assets/images/backgrounds/header-desktop.jpg"
+        style="width: auto"
+      />
     </picture>
-
-    <div
-      v-if="modal"
-      @click="hideModal"
-      class="absolute w-screen h-screen z-20 transition-all opacity-50 bg-N-Black"
-    ></div>
   </header>
 </template>
