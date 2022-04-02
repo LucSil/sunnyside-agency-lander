@@ -10,3 +10,6 @@ body {
 li {
   @apply mb-8 font-barlow text-darkGrayishBlue font-semibold cursor-pointer;
 }
+picture img {
+  @apply w-full;
+}
