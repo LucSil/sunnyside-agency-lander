@@ -11,7 +11,7 @@
       />
       <img src="../assets/images/backgrounds/cherry-desktop.jpg" />
     </picture>
-    <div class="px-4 absolute text-base z-10 bottom-12 grid place-items-center">
+    <div class="px-4 absolute text-base z-10 bottom-16 grid place-items-center">
       <h2 class="mb-8 font-fraunces font-black text-3xl text-P-darkDesatCyan">
         Graphic Design
       </h2>
