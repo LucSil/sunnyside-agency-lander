@@ -9,10 +9,7 @@
         media="(min-width:750px)"
         srcset="../assets/images/backgrounds/pinkglass-desktop.jpg"
       />
-      <img
-        src="../assets/images/backgrounds/pinkglass-desktop.jpg"
-        style="width: auto"
-      />
+      <img src="../assets/images/backgrounds/pinkglass-desktop.jpg" />
     </picture>
 
     <div class="grid place-items-center px-6 py-12">
