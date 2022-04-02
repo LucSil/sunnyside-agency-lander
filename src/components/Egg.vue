@@ -29,7 +29,7 @@
         ><a href="">LEARN MORE</a></span
       >
       <span
-        class="relative bottom-2.5 -z-10 block h-2 opacity-30 rounded-full bg-P-Yellow w-[40%]"
+        class="relative bottom-2.5 -z-10 block h-2 opacity-30 rounded-full bg-P-Yellow w-[8rem]"
       ></span>
     </div>
   </section>
