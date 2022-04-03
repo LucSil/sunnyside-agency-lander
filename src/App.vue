@@ -6,6 +6,7 @@
   <Orange />
   <Testimonial />
   <Images />
+  <Footer />
 </template>
 
 <script>
@@ -16,9 +17,19 @@ import Cherry from "@/components/Cherry.vue";
 import Orange from "@/components/Orange.vue";
 import Testimonial from "@/components/Testimonial.vue";
 import Images from "@/components/Images.vue";
+import Footer from "@/components/Footer.vue";
 
 export default {
   name: "App",
-  components: { Header, Egg, Pink, Cherry, Orange, Testimonial, Images },
+  components: {
+    Header,
+    Egg,
+    Pink,
+    Cherry,
+    Orange,
+    Testimonial,
+    Images,
+    Footer,
+  },
 };
 </script>
