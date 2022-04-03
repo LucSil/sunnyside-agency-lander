@@ -11,7 +11,7 @@
         were met and deadlines were always hit.
       </p>
       <div class="grid place-items-center">
-        <span class="mb-2 font-fraunces font-bold text-veryDarkDesatBlue"
+        <span class="mb-1 font-fraunces font-bold text-veryDarkDesatBlue"
           >Emily R.</span
         >
         <span class="font-barlow opacity-75 text-sm text-darkGrayishBlue"
