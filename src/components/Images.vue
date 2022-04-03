@@ -1,7 +1,7 @@
 <template>
   <section>
-    <div>
-      <picture>
+    <div class="flex">
+      <picture class="w-full">
         <source
           media="(min-width:310px )"
           srcset="../assets/images/backgrounds/milkbottles-mobile.jpg"
@@ -12,7 +12,7 @@
         />
         <img src="../assets/images/backgrounds/milkbottles-desktop.jpg" />
       </picture>
-      <picture>
+      <picture class="w-full">
         <source
           media="(min-width:310px )"
           srcset="../assets/images/backgrounds/orange-mobile.jpg"
@@ -24,8 +24,8 @@
         <img src="../assets/images/backgrounds/orange-desktop.jpg" />
       </picture>
     </div>
-    <div>
-      <picture>
+    <div class="flex">
+      <picture class="w-full">
         <source
           media="(min-width:310px )"
           srcset="../assets/images/backgrounds/cone-mobile.jpg"
@@ -36,7 +36,7 @@
         />
         <img src="../assets/images/backgrounds/cone-desktop.jpg" />
       </picture>
-      <picture>
+      <picture class="w-full">
         <source
           media="(min-width:310px )"
           srcset="../assets/images/backgrounds/sugarcubes-mobile.jpg"
