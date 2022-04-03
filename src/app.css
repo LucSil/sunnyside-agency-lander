@@ -13,3 +13,24 @@ li {
 picture img {
   @apply w-full;
 }
+.testi {
+  @apply grid place-items-center;
+}
+.testi .imgDiv {
+  @apply w-16 h-16 mb-8;
+}
+.testi p {
+  @apply text-center font-barlow mx-6 mb-8 text-veryDarkGrayishBlue font-semibold;
+}
+.imgDiv img {
+  @apply rounded-full;
+}
+.testi .id {
+  @apply grid place-items-center;
+}
+.id .name {
+  @apply mb-1 font-fraunces font-bold text-veryDarkDesatBlue;
+}
+.id .post {
+  @apply font-barlow opacity-75 text-sm text-darkGrayishBlue;
+}
