@@ -1,7 +1,12 @@
 <template>
-  <section>
-    <h3>sunnyside</h3>
-    <ul>
+  <section class="grid place-items-center py-16 pb-20 bg-custom">
+    <div class="w-[50%] mb-10">
+      <img class="w-full" src="../assets/images/svg/footer-logo.svg" />
+    </div>
+    <ul
+      id="linkUl"
+      class="font-barlow font-semibold w-full flex justify-evenly mb-14"
+    >
       <li>
         <a href="">About</a>
       </li>
@@ -12,7 +17,7 @@
         <a href="">Projects</a>
       </li>
     </ul>
-    <div>
+    <div class="flex w-[50%] justify-evenly">
       <a href="">
         <img src="../assets/images/svg/icon-facebook.svg" />
       </a>

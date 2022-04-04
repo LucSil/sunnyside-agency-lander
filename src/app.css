@@ -34,3 +34,6 @@ picture img {
 .id .post {
   @apply font-barlow opacity-75 text-sm text-darkGrayishBlue;
 }
+#linkUl li {
+  @apply text-P-darkModCyan;
+}
