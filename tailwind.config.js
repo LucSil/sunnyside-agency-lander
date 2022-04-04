@@ -34,11 +34,12 @@ module.exports = {
         "P-darkModCyan": "hsl(168, 34%, 41%)",
 
         // Neutral Colors
-        veryDarkDesatBlue: "hsl(212, 27%, 19%)",
+        veryDarkDesatBlue: "hsl(212, 26%, 19%)",
         veryDarkGrayishBlue: "hsl(213, 9%, 39%)",
         darkGrayishBlue: "hsl(232, 10%, 55%)",
         grayishBlue: "hsl(210, 4%, 67%)",
         "N-White": "hsl(0, 0%, 100%)",
+        custom: "hsl(168, 50%, 70%)",
       },
       fontFamily: {
         barlow: ["Barlow", "sans-serif"],
