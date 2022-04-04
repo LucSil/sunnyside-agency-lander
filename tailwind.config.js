@@ -7,6 +7,8 @@ module.exports = {
   theme: {
     extend: {
       screens: {
+        ex: "750px",
+
         // Mobile Layouts
         m1: "320px", // iPhone 5/SE
         m2: "360px", // Galaxy S20
