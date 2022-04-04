@@ -1,10 +1,10 @@
 <template>
-  <section>
-    <div class="testi mb-16">
+  <section class="d3:flex d3:justify-center d3:items-center d3:px-14">
+    <div class="testi mb-16 d3:mb-0">
       <div class="imgDiv">
         <img src="../../assets/images/image-emily.jpg" />
       </div>
-      <p>
+      <p class="">
         We put our trust in Sunnyside and they delivered, making sure our needs
         were met and deadlines were always hit.
       </p>
@@ -13,11 +13,11 @@
         <span class="post">Marketing Director</span>
       </div>
     </div>
-    <div class="testi mb-16">
+    <div class="testi mb-16 d3:-mb-0">
       <div class="imgDiv">
         <img src="../../assets/images/image-thomas.jpg" />
       </div>
-      <p>
+      <p class="">
         Sunnyside's enthusiasm coupled with their keen interest in our brand's
         success made it a satisfying and enjoyable experience.
       </p>

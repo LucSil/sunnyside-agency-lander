@@ -2,8 +2,10 @@
   <Header />
   <Egg />
   <Pink />
-  <Cherry />
-  <Orange />
+  <section class="ex:grid ex:grid-cols-2">
+    <Cherry />
+    <Orange />
+  </section>
   <Testimonial />
   <Images />
   <Footer />

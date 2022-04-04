@@ -11,7 +11,7 @@ li {
   @apply mb-8 font-barlow text-darkGrayishBlue font-semibold cursor-pointer;
 }
 picture img {
-  @apply w-full;
+  @apply w-full h-full;
 }
 .testi {
   @apply grid place-items-center;
@@ -36,4 +36,7 @@ picture img {
 }
 #linkUl li {
   @apply text-P-darkModCyan;
+}
+.navLi {
+  @apply text-N-White font-barlow font-semibold;
 }

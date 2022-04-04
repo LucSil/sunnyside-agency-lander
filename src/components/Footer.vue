@@ -1,11 +1,11 @@
 <template>
   <section class="grid place-items-center py-16 pb-20 bg-custom">
-    <div class="w-[50%] mb-10">
+    <div class="w-[200px] mb-10">
       <img class="w-full" src="../assets/images/svg/footer-logo.svg" />
     </div>
     <ul
       id="linkUl"
-      class="font-barlow font-semibold w-full flex justify-evenly mb-14"
+      class="font-barlow font-semibold w-[350px] flex justify-between mb-14 px-4"
     >
       <li>
         <a href="">About</a>
@@ -17,7 +17,7 @@
         <a href="">Projects</a>
       </li>
     </ul>
-    <div class="flex w-[50%] justify-evenly">
+    <div class="flex w-[200px] justify-evenly">
       <a href="">
         <img src="../assets/images/svg/icon-facebook.svg" />
       </a>
