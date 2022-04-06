@@ -10,12 +10,12 @@
         grow fast. Engage your clients through compelling visuals that do most
         of the marketing for you.
       </p>
-      <div class="grid place-items-center">
+      <div class="grid place-items-center group">
         <span class="font-fraunces font-bold text-base text-veryDarkDesatBlue"
           ><a href="">LEARN MORE</a></span
         >
         <span
-          class="relative bottom-2.5 -z-10 block h-2 opacity-30 rounded-full bg-P-softRed w-[8rem]"
+          class="relative bottom-2.5 -z-10 group-hover:opacity-80 transition-all block h-2 opacity-30 rounded-full bg-P-Yellow w-[8rem]"
         ></span>
       </div>
     </div>

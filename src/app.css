@@ -35,7 +35,10 @@ picture img {
   @apply font-barlow opacity-75 text-sm text-darkGrayishBlue;
 }
 #linkUl li {
-  @apply text-P-darkModCyan;
+  @apply text-P-darkModCyan transition-all;
+}
+#linkUl li {
+  @apply hover:text-N-White;
 }
 .navLi {
   @apply text-N-White font-barlow font-semibold;

@@ -20,7 +20,7 @@
           <li class="navLi">Projects</li>
           <li>
             <button
-              class="rounded-full text-sm px-6 py-4 bg-N-White text-veryDarkDesatBlue font-fraunces"
+              class="rounded-full text-sm px-6 py-4 bg-N-White ex:hover:bg-sky-300 ex:hover:text-N-White ex:transition-all text-veryDarkDesatBlue font-fraunces"
             >
               CONTACT
             </button>

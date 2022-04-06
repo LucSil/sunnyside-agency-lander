@@ -3,6 +3,7 @@ module.exports = {
     "./index.html",
     "./src/**/*.{vue,js,ts,jsx,tsx}",
     "./src/components/**/*.{vue,js,ts,jsx,tsx}",
+    "./src/components/added/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
@@ -15,17 +16,9 @@ module.exports = {
         m3: "375px", // iPhone 12/13 mini
         m4: "414px", // iPhone 11 Pro Max
 
-        // Tablet Layouts
-        t1: "768px",
-        t2: "800px",
-        t3: "1024px",
-        t4: "1080px",
-
         // Desktop Layouts
         d1: "1024px",
-        d2: "1280px",
         d3: "1366px",
-        d4: "1440px",
       },
       colors: {
         // Primary Colors

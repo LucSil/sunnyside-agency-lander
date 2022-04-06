@@ -22,12 +22,12 @@
         videographers, and copywriters, we'll build and extend your brand in
         digital places.
       </p>
-      <div class="grid place-items-center">
+      <div class="grid place-items-center group">
         <span class="font-fraunces font-bold text-base text-veryDarkDesatBlue"
           ><a href="">LEARN MORE</a></span
         >
         <span
-          class="relative bottom-2.5 -z-10 block h-2 opacity-30 rounded-full bg-P-softRed w-[8rem]"
+          class="relative bottom-2.5 -z-10 block group-hover:opacity-80 transition-all h-2 opacity-30 rounded-full bg-P-softRed w-[8rem]"
         ></span>
       </div>
     </div>
